@@ -1,5 +1,5 @@
 # learning-shell
-### List of Shell scripting Topics
+### List of Shell scripting Topics updated
 
 1. Shebang & Comments
 2. Print                         (Command)
