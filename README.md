@@ -4,8 +4,13 @@
 #
 
 1. Shebang & Comments            (Scripting Concept)
-2. Print                         (Command)
-3. Redirectors & Quotes          (Linux Concept)
+2. Print                         (Command)  -- echo command is used to print 
+3. Redirectors & Quotes          (Linux Concept) 
+-- STDOUT(>)-store o/p in af file 
+-- STDIN(<) - Take input form file
+--1>/tmp/out - store o/p 
+--2>/tmp/err - store an error 
+--&>/tmp/out - store both o/p and error
 4. Variables                     (Scripting Concept)
 5. Input                         (Scripting Concept)
 6. Functions                     (Scripting Concept)
