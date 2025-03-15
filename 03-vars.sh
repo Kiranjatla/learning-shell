@@ -2,8 +2,11 @@ a=10
 b=abc
 c=true
 
-echo of value a = $a
+echo value of a = $a
 
-echo of value b = $b
+echo value of b = $b
 
-echo of value c = $c
+echo value of c = $c
+
+DATE=&(date)
+echo today date is $DATE
