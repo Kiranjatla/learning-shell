@@ -14,7 +14,7 @@ DATE=$(date)
 echo today date is $DATE
 
 #Arithmetic Substitution
-Add=$((2+3+4))
+ADD=$((2+3+4))
 
 echo addition of 2+3+4 is $ADD
 
