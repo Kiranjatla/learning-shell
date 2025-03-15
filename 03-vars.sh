@@ -1,6 +1,6 @@
-a=10
-b=abc
-c=true
+a=10   #Integer
+b=abc  #string
+c=true #Boolean
 
 echo value of a = $a
 
@@ -15,6 +15,8 @@ echo today date is $DATE
 
 #Arithmetic Substitution
 ADD=$((2+3+4))
-
 echo addition of 2+3+4 is $ADD
+
+#variable from CLI enter (x=100) in AWS Server putty session ans run below script
+echo value of x= $x
 
