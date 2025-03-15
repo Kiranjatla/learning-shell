@@ -8,5 +8,5 @@ echo value of b = $b
 
 echo value of c = $c
 
-DATE=&(date)
+DATE=$(date)
 echo today date is $DATE
