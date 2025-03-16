@@ -1,6 +1,7 @@
-echo $0
-echo $1
-echo $2
-echo $*
-echo $@
-echo $#
+
+echo $0 #Script Name
+echo $1 #First Argument
+echo $2 #Second Argument
+echo $* #all Arguments
+echo $@ #all Arguments
+echo $# #Number of Arguments
