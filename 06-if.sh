@@ -14,4 +14,6 @@ if [ $x == "abc" ]; then
 file=/tmp/new
 if [ -f $file ]; then
   echo yes file exists
+  else
+    echo no file doesnt exists
   fi
