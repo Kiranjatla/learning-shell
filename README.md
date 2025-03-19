@@ -18,3 +18,32 @@
 8. Conditions                    (Scripting Concept)
 9. Loops                         (Scripting Concept)
 10. SED Editor                   (Command)
+
+##
+
+SHE_BANG & Comments - DONE
+PRINT
+
+echo
+
+- colored printing
+- multiline printing
+  echo -e "Hello\nWorld"
+
+Redirectors
+
+If output use >
+if error user 2>
+if both use &>
+If append rather than over write &>>
+If output is not needed then &>/dev/null 
+
+
+Quotes
+
+Single Quotes
+-> No special characters in single quote , meaning echo '${a}' will print ${a} as output , it will not print the variable data, since $ is a special character to pull variables and no special characters are allowed in single quotes
+
+Double Quotes
+-> Very few characters are special characters that includes $, Meaning variables are accessible using double quotes.
+-> It is most preferred one.
