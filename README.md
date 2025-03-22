@@ -28,9 +28,9 @@ echo
 
 - colored printing
 - multiline printing
-  echo -e "Hello\nWorld"
+  echo -e "Hello\nWorld"     -->\n will print the world in next line
 
-Redirectors
+Redirectors: 
 
 If output use >
 if error user 2>
